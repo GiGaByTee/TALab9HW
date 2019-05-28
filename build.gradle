@@ -2,6 +2,8 @@ plugins {
     id 'java'
 }
 
+
+
 group 'com.igor'
 version '1.0-SNAPSHOT'
 
@@ -21,13 +23,25 @@ dependencies {
 }
 
 
+task runTestsFromXml(type: JavaExec, dependsOn: 'classes') {
+    main = 'org.testng.TestNG'
+    classpath = files("./src/test/resources",
+            project.sourceSets.main.compileClasspath,
+            project.sourceSets.test.compileClasspath,
+            project.sourceSets.main.runtimeClasspath,
+            project.sourceSets.test.runtimeClasspath)
+    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "./src/test/resources/testng.xml"]
+}
+
+task runTestsFromJavaClass(type: Test) {
+    useTestNG() {
+        useDefaultListeners = true
+    }
+}
+
 test {
     useTestNG() {
         dependsOn cleanTest
         useDefaultListeners = true
     }
-}
-
-task runTests{
-    test()
 }
