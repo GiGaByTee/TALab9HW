@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GmailTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-05-28T20:46:28" hostname="MacBook-Pro-Shchurko.local" time="32.011">
+  <properties/>
+  <testcase name="delete3EmailsAndRevert[0](tt6549624, Qwerty123!)" classname="GmailTest" time="27.794"/>
+  <testcase name="delete3EmailsAndRevert[0](tt6549629, Qwerty123!)" classname="GmailTest" time="31.318"/>
+  <testcase name="delete3EmailsAndRevert[0](tt6549625, Qwerty123!)" classname="GmailTest" time="31.868"/>
+  <testcase name="delete3EmailsAndRevert[0](tt6549627, Qwerty123!)" classname="GmailTest" time="31.567"/>
+  <testcase name="delete3EmailsAndRevert[0](tt6549626, Qwerty123!)" classname="GmailTest" time="31.357"/>
+  <system-out><![CDATA[?[32mINFO ?[m ?[34m2019-05-28 23:46:56.243?[m DriverManager:36 - ?[32mWebDriver is down.?[m 
+?[30mTRACE?[m ?[34m2019-05-28 23:46:56.302?[m GmailPage:144 - ?[30mChoosing 3 unread email...?[m 
+?[30mTRACE?[m ?[34m2019-05-28 23:46:56.326?[m GmailPage:144 - ?[30mChoosing 3 unread email...?[m 
+?[30mTRACE?[m ?[34m2019-05-28 23:46:56.351?[m GmailPage:144 - ?[30mChoosing 1 unread email...?[m 
+?[30mTRACE?[m ?[34m2019-05-28 23:46:56.976?[m GmailPage:144 - ?[30mChoosing 2 unread email...?[m 
+?[30mTRACE?[m ?[34m2019-05-28 23:46:57.589?[m GmailPage:144 - ?[30mChoosing 3 unread email...?[m 
+?[32mINFO ?[m ?[34m2019-05-28 23:46:59.662?[m DriverManager:36 - ?[32mWebDriver is down.?[m 
+?[32mINFO ?[m ?[34m2019-05-28 23:47:00.052?[m DriverManager:36 - ?[32mWebDriver is down.?[m 
+?[32mINFO ?[m ?[34m2019-05-28 23:47:00.233?[m DriverManager:36 - ?[32mWebDriver is down.?[m 
+?[32mINFO ?[m ?[34m2019-05-28 23:47:00.426?[m DriverManager:36 - ?[32mWebDriver is down.?[m 
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 1687
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 1230
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 12379
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 9666
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 28227
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+трав. 28, 2019 11:46:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+трав. 28, 2019 11:46:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+трав. 28, 2019 11:46:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+трав. 28, 2019 11:46:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+трав. 28, 2019 11:46:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
