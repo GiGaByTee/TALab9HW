@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import util.DriverManager;
-
 import web_elements.Button;
 import web_elements.TextInput;
 
@@ -38,21 +37,16 @@ public class LoginPage extends PageObject {
 
     public void typeLoginAndSubmit(String email) {
         loginInput.typeText(email);
-    }
-
-    public void clickNextButtonInGmailPage(){
         nextButton.clickButton();
         new WebDriverWait(DriverManager.getWebDriver(), EXPLICIT_WAIT_TIMEOUT)
                 .until(ExpectedConditions.visibilityOf(forgotPasswordButton));
     }
 
-    public void typePassword(String password) {
+    public void typePasswordAndSubmit(String password) {
         passwordInput.typeText(password);
-    }
-
-    public void clickButtonOnPasswordPage(){
         passwordNextButton.clickButton();
         waitPageUpdate();
+
     }
 
     public boolean verifyUserEnterCorrectEmail(){

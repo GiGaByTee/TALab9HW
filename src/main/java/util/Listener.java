@@ -1,10 +1,9 @@
-package util.listener;
+package util;
 
 import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import util.DriverManager;
 
 public class Listener implements ITestListener {
     private static Logger LOG = Logger.getLogger(DriverManager.class.getName());

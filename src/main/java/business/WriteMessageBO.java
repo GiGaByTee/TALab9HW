@@ -7,23 +7,12 @@ public class WriteMessageBO {
     private GmailHomePage gmailHomePage = new GmailHomePage();
     private static Logger LOG = Logger.getLogger(AutorizationBO.class.getName());
 
-    public void writeGmailMessage(String res , String to, String mes) throws InterruptedException {
-        LOG.info("User create new messages");
-        gmailHomePage.createMessage(res, mes, to);
-    }
-
-    public void sentNewMessage(){
-        gmailHomePage.clickSentButton();
-        LOG.info("Message was sent");
-    }
-
-
-    public boolean messagePopUpIsVisible(){
-        return gmailHomePage.newMessagePopupIsVisible();
-    }
-
-    public void clickComposeButton(){
-        LOG.info("User click compose button");
-        gmailHomePage.clickComposeButton();
+    public void writeGmailMessage(String res, String to, String mes) throws InterruptedException {
+        for (int i = 0; i < 3; i++) {
+            LOG.info("User click compose button");
+            gmailHomePage.clickComposeButton();
+            LOG.info("User create new messages");
+            gmailHomePage.createMessage(res, mes, to);
+        }
     }
 }

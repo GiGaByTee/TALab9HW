@@ -11,7 +11,6 @@ import util.DriverManager;
 
 import static web_elements.Alert.TIME_OUT;
 
-
 public class Button extends Element {
 
     public Button(WebElement webElement) {

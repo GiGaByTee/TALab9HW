@@ -9,8 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class DriverManager {
@@ -30,7 +28,7 @@ public class DriverManager {
 
     public static WebDriver createInstanseDriver() {
         {
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         }
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -46,14 +44,9 @@ public class DriverManager {
     public static  void failed() {
         File scrFile = ((TakesScreenshot) DRIVER_POOL.get()).getScreenshotAs(OutputType.FILE);
         try {
-            String currentDate = new SimpleDateFormat("yyyy-MM-dd HH.mm.ss").format(new Date(System.currentTimeMillis()));
-            FileUtils.copyFile(scrFile, new File("screenshots//screenshot.png",currentDate));
+            FileUtils.copyFile(scrFile, new File("screenshots//screenshot.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    public static void refreshPage(){
-        DRIVER_POOL.get().navigate().refresh();
-    }
 }
-

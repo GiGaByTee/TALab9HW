@@ -6,6 +6,9 @@ import java.lang.reflect.Proxy;
 import java.lang.reflect.Type;
 import java.util.List;
 
+import decorator.IElement;
+import decorator.LocatingCustomElementListHandler;
+import decorator.WrapperFactory;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,6 +17,9 @@ import org.openqa.selenium.support.pagefactory.
         DefaultElementLocatorFactory;
 import org.openqa.selenium.support.pagefactory.DefaultFieldDecorator;
 import org.openqa.selenium.support.pagefactory.ElementLocator;
+
+import java.lang.reflect.*;
+import java.util.List;
 
 public class CustomFieldDecorator extends DefaultFieldDecorator {
 

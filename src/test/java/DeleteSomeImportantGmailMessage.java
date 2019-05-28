@@ -14,15 +14,12 @@ public class DeleteSomeImportantGmailMessage extends FunctionalTest {
         AutorizationBO autorizationBO = new AutorizationBO();
         MarkAndDeleteImportantMessageBO markAndDeleteImportantMessageBO = new MarkAndDeleteImportantMessageBO();
 
-       autorizationBO.userEnterEmailAndClickNextButtton(userData.getUserEmail());
-        Assert.assertTrue(autorizationBO.verifyUserEnterCorrectEmail() , "Gmail Password Page is visible");
-        autorizationBO.userEnterPasswordAndClickNextButton(userData.getPassword());
-        Assert.assertTrue(autorizationBO.verifyLogInSuccessful(), "User autorize successful");
+        autorizationBO.logInUser(userData.getUserEmail(), userData.getPassword());
+        Assert.assertTrue(autorizationBO.verifyLogInSuccessful() , "User autorize successful");
 
-        markAndDeleteImportantMessageBO.chooseImportantMessages();
+        markAndDeleteImportantMessageBO.choseImportantMessages();
         Assert.assertTrue(markAndDeleteImportantMessageBO.messagesMarkedAsImportant(), "Messages is marked");
-        markAndDeleteImportantMessageBO.clickImportantButton();
-        markAndDeleteImportantMessageBO.deleteSomeImportantMessages();
+        markAndDeleteImportantMessageBO.deleteImportantMessages();
         Assert.assertTrue(markAndDeleteImportantMessageBO.messagesDeleted() , "Conversation moved to Trash.");
     }
 }

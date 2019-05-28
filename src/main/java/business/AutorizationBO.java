@@ -8,22 +8,17 @@ public class AutorizationBO {
     private LoginPage loginPage = new LoginPage();
     private static Logger LOG = Logger.getLogger(AutorizationBO.class.getName());
 
-
-    public void userEnterEmailAndClickNextButtton(String email){
+    public void logInUser(String email, String password) throws InterruptedException {
         LOG.info("User enter email" + email+ " in the login text box");
         loginPage.typeLoginAndSubmit(email);
-        loginPage.clickNextButtonInGmailPage();
-    }
-
-    public void userEnterPasswordAndClickNextButton(String password){
+        Assert.assertTrue(verifyUserEnterCorrectEmail() , "Password page");
         LOG.info("Password enter password" + password+ "in the Password text box");
-        loginPage.typePassword(password);
-        loginPage.clickButtonOnPasswordPage();
+        loginPage.typePasswordAndSubmit(password);
+
     }
 
-    public boolean verifyLogInSuccessful()
-    {
-       return loginPage.userLogInSuccessful();
+    public boolean verifyLogInSuccessful(){
+        return loginPage.userLogInSuccessful();
     }
 
     public boolean verifyUserEnterCorrectEmail(){

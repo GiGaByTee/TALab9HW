@@ -4,17 +4,16 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
-
-import java.util.List;
 import web_elements.Alert;
 import web_elements.Button;
 import web_elements.CheckBox;
 import web_elements.TextInput;
 
+import java.util.List;
+
 public class GmailHomePage extends PageObject {
     private static Logger LOG = Logger.getLogger(GmailHomePage.class.getName());
-    private static final int COUNT_IMPORTANT_MESSAGES = 4;
+    private static final int COUNT_IMPORTANT_MESSAGES = 3;
 
     @FindBy(xpath = "//div[text()='Compose']")
     private Button composenButton;
@@ -56,9 +55,6 @@ public class GmailHomePage extends PageObject {
     @FindBy(xpath = "//*[contains(@class,'aio UKr6le')]//a[contains(@title,'Important')]")
     private Button importantButton;
 
-    @FindBy(css = ".a3E .aYF")
-    private Alert newMessagePopup;
-
 
     public GmailHomePage() {
         super();
@@ -73,13 +69,11 @@ public class GmailHomePage extends PageObject {
         emailReceiver.typeTextAndSubmit(receiver);
         subjectBox.typeTextAndSubmit(subject);
         messageboxTextArea.typeText(message);
-    }
-    public void clickSentButton(){
         sentMessageButton.clickButton();
     }
 
     public void markMessagesAsImportant() throws InterruptedException {
-        for (int i = 1; i < COUNT_IMPORTANT_MESSAGES; i++) {
+        for (int i = 0; i < COUNT_IMPORTANT_MESSAGES; i++) {
             try {
                 importantMessageCheckboxes.get(i).setChecked(true);
             }
@@ -97,9 +91,5 @@ public class GmailHomePage extends PageObject {
             LOG.error("Test failed");
         return conversationAsImportantMessage.isVisible();
 
-    }
-
-    public boolean newMessagePopupIsVisible(){
-      return  newMessagePopup.isVisible();
     }
 }
