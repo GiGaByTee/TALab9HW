@@ -28,5 +28,6 @@ test {
     }
 }
 
-task smokeTest{
+task runTests{
+    test()
 }
