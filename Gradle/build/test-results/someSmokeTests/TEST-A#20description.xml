@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="A description" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-05-28T19:33:08" hostname="DESKTOP-3AIQH3S" time="108.965">
+  <properties/>
+  <testcase name="A scenario" classname="A description" time="22.98"/>
+  <testcase name="A scenario" classname="A description" time="21.347"/>
+  <testcase name="A scenario" classname="A description" time="20.692"/>
+  <testcase name="A scenario" classname="A description" time="22.97"/>
+  <testcase name="A scenario" classname="A description" time="20.974"/>
+  <system-out><![CDATA[?[32m.?[0m?[32m.?[0mINFO  2019-05-28 22:33:14.856 LoginEmailPage:21 - Set user email: testmy12341234 
+INFO  2019-05-28 22:33:14.860 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:15.018 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-28 22:33:15.019 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:33:15.303 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:15.838 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:16.359 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:16.402 LoginPassPage:22 - Set user password: 1234test1234My 
+INFO  2019-05-28 22:33:16.402 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:16.546 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-28 22:33:16.575 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-28 22:33:16.575 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:33:16.683 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-28 22:33:16.684 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:33:23.221 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-28 22:33:23.222 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:23.407 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-28 22:33:23.407 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:23.519 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-28 22:33:23.519 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:23.780 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-28 22:33:23.781 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:33:23.919 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:33:29.802 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-28 22:33:29.802 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:33:29.829 LinkDecor:18 - Link 
+INFO  2019-05-28 22:33:29.922 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:33:30.782 MailboxPage:104 - Delete the set message 
+INFO  2019-05-28 22:33:30.782 ButtonDecor:17 - Button 
+?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0mINFO  2019-05-28 22:33:36.429 LoginEmailPage:21 - Set user email: tt8517837 
+INFO  2019-05-28 22:33:36.430 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:36.547 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-28 22:33:36.547 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:33:36.822 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:37.352 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:37.872 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:37.899 LoginPassPage:22 - Set user password: 856ttestmy856 
+INFO  2019-05-28 22:33:37.899 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:38.046 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-28 22:33:38.072 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-28 22:33:38.072 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:33:38.175 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-28 22:33:38.176 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:33:41.515 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-28 22:33:41.515 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:44.710 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-28 22:33:44.710 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:44.817 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-28 22:33:44.818 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:45.086 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-28 22:33:45.086 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:33:45.217 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:33:51.288 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-28 22:33:51.288 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:33:51.317 LinkDecor:18 - Link 
+INFO  2019-05-28 22:33:51.398 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:33:52.069 MailboxPage:104 - Delete the set message 
+INFO  2019-05-28 22:33:52.070 ButtonDecor:17 - Button 
+?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0mINFO  2019-05-28 22:33:57.707 LoginEmailPage:21 - Set user email: test28832 
+INFO  2019-05-28 22:33:57.707 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:57.828 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-28 22:33:57.828 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:33:58.106 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:58.642 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:59.166 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:33:59.189 LoginPassPage:22 - Set user password: 12345test54321 
+INFO  2019-05-28 22:33:59.190 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:33:59.318 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-28 22:33:59.344 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-28 22:33:59.344 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:33:59.454 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-28 22:33:59.454 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:34:04.743 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-28 22:34:04.744 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:05.683 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-28 22:34:05.684 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:05.776 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-28 22:34:05.776 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:05.993 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-28 22:34:05.994 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:34:06.155 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:12.331 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-28 22:34:12.332 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:12.358 LinkDecor:18 - Link 
+INFO  2019-05-28 22:34:12.438 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:12.902 MailboxPage:104 - Delete the set message 
+INFO  2019-05-28 22:34:12.903 ButtonDecor:17 - Button 
+?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0mINFO  2019-05-28 22:34:18.519 LoginEmailPage:21 - Set user email: test28361 
+INFO  2019-05-28 22:34:18.519 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:18.634 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-28 22:34:18.634 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:34:18.907 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:34:19.439 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:34:19.963 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:34:19.989 LoginPassPage:22 - Set user password: 12345test12345 
+INFO  2019-05-28 22:34:19.989 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:20.127 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-28 22:34:20.154 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-28 22:34:20.154 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:34:20.270 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-28 22:34:20.270 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:34:27.284 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-28 22:34:27.284 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:27.670 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-28 22:34:27.670 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:27.776 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-28 22:34:27.776 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:27.992 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-28 22:34:27.993 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:34:28.128 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:34.391 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-28 22:34:34.392 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:34.421 LinkDecor:18 - Link 
+INFO  2019-05-28 22:34:34.500 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:35.790 MailboxPage:104 - Delete the set message 
+INFO  2019-05-28 22:34:35.791 ButtonDecor:17 - Button 
+?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0mINFO  2019-05-28 22:34:41.413 LoginEmailPage:21 - Set user email: test283611 
+INFO  2019-05-28 22:34:41.413 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:41.542 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-28 22:34:41.542 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:34:41.817 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:34:42.348 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:34:42.868 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-28 22:34:42.897 LoginPassPage:22 - Set user password: 1234512345t 
+INFO  2019-05-28 22:34:42.897 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:43.008 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-28 22:34:43.035 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-28 22:34:43.035 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:34:43.145 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-28 22:34:43.145 ButtonDecor:17 - Button 
+INFO  2019-05-28 22:34:49.138 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-28 22:34:49.139 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:49.322 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-28 22:34:49.322 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:49.440 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-28 22:34:49.440 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-28 22:34:49.666 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-28 22:34:49.667 ButtonDecor:17 - Button 
+?[32m.?[0mINFO  2019-05-28 22:34:49.812 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:55.739 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-28 22:34:55.740 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:55.765 LinkDecor:18 - Link 
+INFO  2019-05-28 22:34:55.840 LinkDecor:23 - Link is displayed 
+INFO  2019-05-28 22:34:56.784 MailboxPage:104 - Delete the set message 
+INFO  2019-05-28 22:34:56.784 ButtonDecor:17 - Button 
+?[32m.?[0m?[32m.?[0m?[32m.?[0m]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 22452
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 10:33:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 6910
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 10:33:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 34703
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 10:33:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 33969
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 10:34:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 25449
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 28, 2019 10:34:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

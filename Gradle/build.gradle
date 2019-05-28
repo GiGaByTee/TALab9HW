@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'Task_gradle'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+apply from: "taskTest.gradle"
+
+dependencies {
+    compile "org.seleniumhq.selenium:selenium-java:3.8.1"
+    compile "org.apache.logging.log4j:log4j-core:2.11.1"
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.6"
+    compile "org.apache.logging.log4j:log4j-api:2.11.1"
+    compile "commons-io:commons-io:2.6"
+    compile "com.fasterxml.jackson.core:jackson-core:2.9.7"
+    compile "com.fasterxml.jackson.core:jackson-annotations:2.9.7"
+    compile "com.fasterxml.jackson.module:jackson-module-jsonSchema:2.5.1"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.9.8"
+    testCompile "io.cucumber:cucumber-core:4.3.1"
+    testCompile "io.cucumber:cucumber-junit:4.3.1"
+    testCompile "io.cucumber:cucumber-java:4.3.1"
+    testCompile "org.testng:testng:6.13.1"
+}
+

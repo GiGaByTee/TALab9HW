@@ -1,0 +1,5 @@
+task someSmokeTests(type: Test) {
+    filter {
+        includeTestsMatching 'com.kryviak.CucumberRunnerTest'
+    }
+}
