@@ -37,6 +37,6 @@
   "implicit_wait": 180,
   "explicit_wait_page_load": 120,
   "explicit_wait_button": 90,
-  "user_amount": 3,
+  "user_amount": 1,
   "checkbox_amount": 3
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sofia.GmailUndoDeleteEmailsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-05-29T15:41:46" hostname="DESKTOP-OFQ7EK4" time="67.413">
+  <properties/>
+  <testcase name="logInAndSendEmail[0](islamartinever@gmail.com, pswd1234)" classname="com.sofia.GmailUndoDeleteEmailsTest" time="57.554"/>
+  <testcase name="logInAndSendEmail[0](sonyachanter@gmail.com, sonichka13)" classname="com.sofia.GmailUndoDeleteEmailsTest" time="50.385"/>
+  <system-out><![CDATA[?[32mINFO ?[m ?[34m2019-05-29 18:42:50.069?[m HomeEmailPageBO:15 - ?[32m14 Deleting...?[m 
+?[32mINFO ?[m ?[34m2019-05-29 18:42:51.315?[m HomeEmailPageBO:21 - ?[32m14 Clicking Undo Button?[m 
+?[32mINFO ?[m ?[34m2019-05-29 18:42:53.454?[m GmailUndoDeleteEmailsTest:50 - ?[32mTest passed successfully?[m 
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 32616
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 48614
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+трав. 29, 2019 6:41:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+трав. 29, 2019 6:41:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
