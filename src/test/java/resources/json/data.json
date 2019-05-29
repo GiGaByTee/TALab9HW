@@ -1,0 +1,51 @@
+
+[
+  {
+    "login":"ivannaboiko200@gmail.com",
+    "password":"Qwerty12345678",
+    "messageModel": {
+      "receiver":"ivankaboiko06@gmail.com",
+      "subject":"Subject",
+      "message": "Hello! How are you?"
+    }
+  },
+  {
+    "login":"userTestNG11@gmail.com",
+    "password":"Qwerty12345678",
+    "messageModel": {
+      "receiver":"ivankaboiko06@gmail.com",
+      "subject":"Subject",
+      "message": "Hello! How are you?"
+    }
+  },
+  {
+    "login":"userTestNG22@gmail.com",
+    "password":"Qwerty12345678",
+    "messageModel": {
+      "receiver":"ivankaboiko06@gmail.com",
+      "subject":"Subject",
+      "message": "Hello! How are you?"
+    }
+  },
+  {
+    "login":"userTestNG33@gmail.com",
+    "password":"Qwerty12345678",
+    "messageModel": {
+      "receiver":"ivankaboiko06@gmail.com",
+      "subject":"Subject",
+      "message": "Hello! How are you?"
+    }
+  },
+  {
+    "login":"userTestNG44@gmail.com",
+    "password":"Qwerty12345678",
+    "messageModel": {
+      "receiver":"ivankaboiko06@gmail.com",
+      "subject":"Subject",
+      "message": "Hello! How are you?"
+    }
+  }
+]
+
+
+
