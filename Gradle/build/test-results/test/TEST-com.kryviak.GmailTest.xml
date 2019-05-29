@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kryviak.GmailTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-05-29T10:48:08" hostname="DESKTOP-3AIQH3S" time="44.623">
+  <properties/>
+  <testcase name="sendEmail[0](tt8517837, 856ttestmy856)" classname="com.kryviak.GmailTest" time="43.148"/>
+  <testcase name="sendEmail[0](test28832, 12345test54321)" classname="com.kryviak.GmailTest" time="43.148"/>
+  <testcase name="sendEmail[0](test28361, 12345test12345)" classname="com.kryviak.GmailTest" time="44.189"/>
+  <testcase name="sendEmail[0](test283611, 1234512345t)" classname="com.kryviak.GmailTest" time="44.535"/>
+  <testcase name="sendEmail[0](testmy12341234, 1234test1234My)" classname="com.kryviak.GmailTest" time="44.623"/>
+  <system-out><![CDATA[INFO  2019-05-29 13:48:18.938 LoginEmailPage:21 - Set user email: test28832 
+INFO  2019-05-29 13:48:18.947 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:18.968 LoginEmailPage:21 - Set user email: tt8517837 
+INFO  2019-05-29 13:48:18.969 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:19.305 LoginEmailPage:21 - Set user email: test283611 
+INFO  2019-05-29 13:48:19.306 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:19.484 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-29 13:48:19.486 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:19.517 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-29 13:48:19.517 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:19.577 LoginEmailPage:21 - Set user email: test28361 
+INFO  2019-05-29 13:48:19.578 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:19.600 LoginEmailPage:21 - Set user email: testmy12341234 
+INFO  2019-05-29 13:48:19.601 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:19.880 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-29 13:48:19.880 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:19.942 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-29 13:48:19.942 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:19.995 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:20.017 LoginEmailPage:27 - Click to the 'Next' button on Email login page 
+INFO  2019-05-29 13:48:20.017 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:20.271 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:20.326 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:20.578 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:20.682 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:20.915 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:20.967 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:21.059 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:21.300 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:21.372 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:21.456 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:21.643 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:21.717 LoginPassPage:22 - Set user password: 1234test1234My 
+INFO  2019-05-29 13:48:21.717 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:21.830 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:21.911 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:21.946 LoginPassPage:22 - Set user password: 12345test54321 
+INFO  2019-05-29 13:48:21.947 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:21.980 LoginPassPage:22 - Set user password: 856ttestmy856 
+INFO  2019-05-29 13:48:21.981 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:21.990 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:22.062 InputTextDecor:22 - Text Area is displayed 
+INFO  2019-05-29 13:48:22.089 LoginPassPage:22 - Set user password: 1234512345t 
+INFO  2019-05-29 13:48:22.090 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:22.115 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-29 13:48:22.145 LoginPassPage:22 - Set user password: 12345test12345 
+INFO  2019-05-29 13:48:22.145 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:22.226 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-29 13:48:22.226 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:22.398 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-29 13:48:22.424 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-29 13:48:22.504 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-29 13:48:22.505 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:22.505 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-29 13:48:22.529 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-29 13:48:22.529 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:22.564 ButtonDecor:22 - Button is displayed 
+INFO  2019-05-29 13:48:22.596 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-29 13:48:22.596 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:22.646 LoginPassPage:29 - Click to the 'Next' button on Password login page 
+INFO  2019-05-29 13:48:22.646 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:22.725 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-29 13:48:22.725 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:22.896 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-29 13:48:22.897 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:23.016 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-29 13:48:23.019 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:23.116 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-29 13:48:23.117 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:23.177 MailboxPage:50 - Click to the 'Compose' button on your email page to create new letter 
+INFO  2019-05-29 13:48:23.178 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:33.491 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-29 13:48:33.492 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:34.275 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-29 13:48:34.275 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:38.811 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-29 13:48:38.811 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:40.544 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-29 13:48:40.545 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:40.558 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-29 13:48:40.560 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:40.568 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-29 13:48:40.568 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:40.737 MailboxPage:55 - Set email to: kryviakmaria@gmail.com 
+INFO  2019-05-29 13:48:40.737 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:41.087 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-29 13:48:41.087 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:41.106 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-29 13:48:41.106 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:41.282 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-29 13:48:41.282 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:41.442 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-29 13:48:41.443 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:41.458 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-29 13:48:41.460 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:41.788 MailboxPage:60 - Set subject to: Hello 
+INFO  2019-05-29 13:48:41.788 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:41.924 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-29 13:48:41.925 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:42.001 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-29 13:48:42.002 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:42.134 MailboxPage:65 - Set message to: How are you? 
+INFO  2019-05-29 13:48:42.135 InputTextDecor:17 - Input Text Area 
+INFO  2019-05-29 13:48:42.155 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-29 13:48:42.155 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:42.309 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-29 13:48:42.309 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:42.402 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:42.677 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:42.726 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:42.768 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-29 13:48:42.768 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:43.119 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:43.124 MailboxPage:70 - Click to the 'Send' button to sent the message 
+INFO  2019-05-29 13:48:43.125 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:43.467 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.288 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-29 13:48:49.289 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.342 LinkDecor:18 - Link 
+INFO  2019-05-29 13:48:49.419 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-29 13:48:49.420 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.474 LinkDecor:18 - Link 
+INFO  2019-05-29 13:48:49.487 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.543 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-29 13:48:49.544 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.633 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.634 LinkDecor:18 - Link 
+INFO  2019-05-29 13:48:49.762 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.780 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-29 13:48:49.781 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.829 LinkDecor:18 - Link 
+INFO  2019-05-29 13:48:49.918 MailboxPage:79 - Click to the 'Sent' link to view all sent message 
+INFO  2019-05-29 13:48:49.918 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.970 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:49.980 LinkDecor:18 - Link 
+INFO  2019-05-29 13:48:50.140 LinkDecor:23 - Link is displayed 
+INFO  2019-05-29 13:48:50.683 MailboxPage:104 - Delete the set message 
+INFO  2019-05-29 13:48:50.683 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:51.085 MailboxPage:104 - Delete the set message 
+INFO  2019-05-29 13:48:51.085 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:51.890 MailboxPage:104 - Delete the set message 
+INFO  2019-05-29 13:48:51.892 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:52.121 MailboxPage:104 - Delete the set message 
+INFO  2019-05-29 13:48:52.122 ButtonDecor:17 - Button 
+INFO  2019-05-29 13:48:52.285 MailboxPage:104 - Delete the set message 
+INFO  2019-05-29 13:48:52.286 ButtonDecor:17 - Button 
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 13346
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 39825
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 39211
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 42171
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 31020
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 29, 2019 1:48:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+May 29, 2019 1:48:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+May 29, 2019 1:48:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+May 29, 2019 1:48:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+May 29, 2019 1:48:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
