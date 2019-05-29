@@ -31,10 +31,15 @@ public final class WebDriverManager {
     }
 
     private static void createWebDriver() {
-        DRIVER_POOL.set(new ChromeDriver());
-        DRIVER_POOL.get().manage()
+        DRIVER_POOL.set(getChromeDriver());
+    }
+
+    private static ChromeDriver getChromeDriver(){
+        ChromeDriver chromeDriver = new ChromeDriver();
+        chromeDriver.manage().window().maximize();
+        chromeDriver.manage()
                 .timeouts()
                 .implicitlyWait(Integer.valueOf(getValueProperty("implicit-wait-time")), TimeUnit.SECONDS);
-        DRIVER_POOL.get().manage().window().maximize();
+        return chromeDriver;
     }
 }
