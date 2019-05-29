@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GmailTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-05-28T08:29:43" hostname="Romanka-ПК" time="41.992">
+  <properties/>
+  <testcase name="generalTest[0](0673404788r@gmail.com,  140992musepa)" classname="GmailTest" time="40.419"/>
+  <testcase name="generalTest[0](0673404783r@gmail.com,  140992musepa)" classname="GmailTest" time="41.657"/>
+  <system-out><![CDATA[?[32mINFO ?[m?[32mNavigated to important messages folder with URL:: https://mail.google.com/mail/u/0/#imp?[m 
+?[32mINFO ?[m?[32mThere are: 11 messages in folder before deleting?[m 
+?[32mINFO ?[m?[32m3 messages are selected for deleting?[m 
+?[32mINFO ?[m?[32mClick "Delete" icon?[m 
+?[32mINFO ?[m?[32mThere are: 8 messages in folder after deleting?[m 
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 21257
+Only local connections are allowed.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 14287
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+мая 28, 2019 11:29:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+мая 28, 2019 11:29:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
