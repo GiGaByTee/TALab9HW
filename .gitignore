@@ -1,4 +1,7 @@
 .idea/
+.grandle/
+build/
+gradle/wrapper
 *.iml
 *.iws
 target/
