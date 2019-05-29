@@ -36,6 +36,6 @@ test {
     useTestNG()
 }
 
-task {
-    
+task afterExecution{
+    println "Hello ";
 }
