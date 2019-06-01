@@ -4,6 +4,7 @@ import com.halas.decorator.element.realisation.Button;
 import com.halas.decorator.element.realisation.EditText;
 import com.halas.page.CommonPage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
