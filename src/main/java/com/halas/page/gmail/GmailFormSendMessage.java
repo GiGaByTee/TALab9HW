@@ -76,7 +76,15 @@ public class GmailFormSendMessage extends CommonPage {
     }
 
     public void clickOnSendMessage() {
-        sendMessage.click();
+        driverWait.until(webDriver -> {
+            try {
+                sendMessage.click();
+                return true;
+            } catch (ElementClickInterceptedException e) {
+                driver.findElement(By.cssSelector("[aria-live='assertive'][role='alert'] *[role='button']")).click();
+            }
+            return false;
+        });
     }
 
     public String getTextFieldWhichEmailsSend() {
