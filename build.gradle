@@ -36,6 +36,18 @@ test {
     useTestNG()
 }
 
-task afterExecution{
+task afterExecution {
     println "Hello ";
+}
+
+task customTask(type: Test) {
+    useTestNG()
+    systemProperty "username", System.getProperty("username")
+    systemProperty "password", System.getProperty("password")
+}
+
+task runDefaults(type: Test) {
+    useTestNG {
+        suites 'testng.xml'
+    }
 }
